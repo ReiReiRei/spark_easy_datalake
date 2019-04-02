@@ -1,8 +1,6 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types.StructType
 
-case class Hive(db: String, table: String, warehousePath: String)
-
 object HiveTools {
   def repairTable(db: String, table: String)(
       implicit spark: SparkSession
