@@ -1,6 +1,6 @@
 import sbt._
 object Versions {
-  val sparkV = "2.3.1.3.0.1.0-187"
+  val sparkV = "2.3.1"
   val pureconfigV = "0.9.2"
 }
 object Dependencies {
